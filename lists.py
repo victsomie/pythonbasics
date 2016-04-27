@@ -7,3 +7,7 @@ print my_list[0:4]  #Prints index 0 up to but excluding index 4
 print my_list[0:len(my_list)] #Prints index 0 up to but excluding the last item
 print my_list[0:]  #This prints from the first to the last item
 
+animals = "catdogfrog"
+cat  = animals[:3]   # The first three characters of animals
+dog  = animals[3:6]              # The fourth through sixth characters
+frog = animals[6:]              # From the seventh character to the end
