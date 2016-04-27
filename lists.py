@@ -9,6 +9,24 @@ print my_list[0:]  #This prints from the first to the last item
 my_list.insert(1, "dog") #This inserts content to the the specified index(in this case it insert dog to the index 1)
 
 
+# For loop
+
+list_2 = [ 1, 4, 5]
+for number in list_2:
+    print number
+
+#Another for Loop
+start_list = [5, 3, 1, 2, 4]
+square_list = []
+
+
+# Your code here!
+for number in start_list:
+    square_list.append(number**2)
+
+square_list.sort()
+
+
 
 animals = "catdogfrog"
 cat  = animals[:3]   # The first three characters of animals
