@@ -61,3 +61,4 @@ inventory['backpack'].remove('dagger')
 inventory['gold']=550
 
 
+#Complex list combining list and a for loop
