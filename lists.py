@@ -40,3 +40,22 @@ my_dict ={"donkey":1, "cow": 5, "goat": 52}
 empty_dict = {}  # Declares an empty dictionary
 empty_dict["zebra"] = 100 #Adds a new key-pair value the empty array
 dict_name[new_key] = new_value
+
+
+#Complex dictionary
+
+inventory = {
+    'gold' : 500,
+    'pouch' : ['flint', 'twine', 'gemstone'], # Assigned a new list to 'pouch' key
+    'backpack' : ['xylophone','dagger', 'bedroll','bread loaf'],
+    'pocket': ["seashell","strange berry", "lint"]
+}
+
+# Adding a key 'burlap bag' and assigning a list to it
+inventory['burlap bag'] = ['apple', 'small ruby', 'three-toed sloth']
+
+# Sorting the list found under the key 'pouch'
+inventory['pouch'].sort()
+inventory['backpack'].sort()
+inventory['backpack'].remove('dagger')
+inventory['gold']=550
