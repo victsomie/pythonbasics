@@ -32,3 +32,11 @@ animals = "catdogfrog"
 cat  = animals[:3]   # The first three characters of animals
 dog  = animals[3:6]              # The fourth through sixth characters
 frog = animals[6:]              # From the seventh character to the end
+
+
+# DICTIONARIES
+# Declare a new dictionary
+my_dict ={"donkey":1, "cow": 5, "goat": 52}
+empty_dict = {}  # Declares an empty dictionary
+
+dict_name[new_key] = new_value
