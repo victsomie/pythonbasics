@@ -38,5 +38,5 @@ frog = animals[6:]              # From the seventh character to the end
 # Declare a new dictionary
 my_dict ={"donkey":1, "cow": 5, "goat": 52}
 empty_dict = {}  # Declares an empty dictionary
-
+empty_dict["zebra"] = 100 #Adds a new key-pair value the empty array
 dict_name[new_key] = new_value
