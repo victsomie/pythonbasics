@@ -45,3 +45,10 @@ def get_letter_grade(score):
 
 #Call the get_letter_grade method with llyd's results
 get_letter_grade(get_average(lloyd))
+
+#The average for the whole class
+def get_class_average(students):
+    results = []
+    for student in students:
+        results.append(get_average(student))
+    return average(results)
