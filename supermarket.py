@@ -56,3 +56,29 @@ def get_class_average(students):
 students = [lloyd, alice, tyler]#Creates students list
 print get_class_average(students) #print the class average
 print get_letter_grade(get_class_average(students)) #Prints the grade of the class based on the average of the class
+
+"""
+Functions and Lists
+Passing a range into a function
+Okay! Range time. The Python range()function is just a shortcut for generating a list, so you can use ranges in all the same places you can use lists.
+
+
+range(6) # => [0,1,2,3,4,5]
+range(1,6) # => [1,2,3,4,5]
+range(1,6,3) # => [1,4]
+The range function has three different versions:
+
+range(stop) #This assumes it is from the start
+range(start, stop) #It defines where to start and where to stop but doesnt include the last number
+range(start, stop, step)
+Example:
+
+"""
+
+def my_function(x):
+    for i in range(0, len(x)):
+        x[i] = x[i] * 2
+    return x
+
+print my_function([0,1,2])
+
