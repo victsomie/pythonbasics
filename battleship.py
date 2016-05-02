@@ -39,7 +39,10 @@ print ship_col
 if guess_row == ship_row and guess_col == ship_col:
     print "Congratulations! You sank my battleship!"
 else:
-    print "You missed my battleship!"
+    if guess_row not in range(0, len(board)) or guess_col not in range(0, len(board[0])):
+        print "Oops, that's not even in the ocean."
+    else:
+        print "You missed my battleship!"
 
 #Append letter "X" to the user's guess numbers to positon and print it
 board[guess_row][guess_col] = "X"
