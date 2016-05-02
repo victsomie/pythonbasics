@@ -41,4 +41,7 @@ if guess_row == ship_row and guess_col == ship_col:
 else:
     print "You missed my battleship!"
 
+#Append letter "X" to the user's guess numbers to positon and print it
+board[guess_row][guess_col] = "X"
 
+print board
