@@ -39,6 +39,9 @@ for d in range(0,4):
         else:
             print "You missed my battleship!"
             board[guess_row][guess_col] = "X"
+    #Check if turn have reached 3 and print out "Game Over"
+    if turn==3:
+        print "Game Over"
     # Print (turn + 1) here!
     turn = turn + 1
     print "%s" %(turn+1)
