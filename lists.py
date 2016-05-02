@@ -1,12 +1,38 @@
-my_list = [1, 2, 3 "victor", 4.5]
+my_list = [1, 2, 3, "victor", 4.5]
 
 print my_list[0]  #prints the first item in the list
-print append ("James") # This adds James to the end of the list
+my_list.append("James") # This adds James to the end of the list
 print len(my_list)   #Prints the length of the list
 print my_list[0:4]  #Prints index 0 up to but excluding index 4
 print my_list[0:len(my_list)] #Prints index 0 up to but excluding the last item
 print my_list[0:]  #This prints from the first to the last item
 my_list.insert(1, "dog") #This inserts content to the the specified index(in this case it insert dog to the index 1)
+
+"""
+for item in list:
+    print item
+
+for i in range(len(list)):
+    print list[i]
+===========================
+"""
+
+n = [[1, 2, 3], [4, 5, 6, 7, 8, 9]]
+# Add your function here
+def flatten(lists):
+    results = []
+    for numbers in range(len(lists)): #Iterates through all the indexes
+        for k in range(len(lists[numbers])):
+            results.append(lists[numbers][k]) #Adds the list index to result
+    return results
+
+print flatten(n)
+
+
+"""
+========================
+
+"""
 
 
 # For loop
