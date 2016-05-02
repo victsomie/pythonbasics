@@ -41,6 +41,8 @@ if guess_row == ship_row and guess_col == ship_col:
 else:
     if guess_row not in range(0, len(board)) or guess_col not in range(0, len(board[0])):
         print "Oops, that's not even in the ocean."
+    elif board[guess_row][guess_col]=="X": #Checks for repetation
+        print "You guessed that one already."
     else:
         print "You missed my battleship!"
 
