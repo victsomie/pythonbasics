@@ -1,3 +1,19 @@
+"""
+Program fto create a dictionary and how to access the key and
+key value separately
+=================================
+"""
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for key in d:
+    # Your code here!
+    print "%s %s" %(key, d[key]) #Prints the key and the key value on each iteration
+
+"""
+============================
+"""
+
+
 #Complex dictionary
 
 inventory = {
