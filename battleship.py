@@ -42,6 +42,8 @@ for d in range(0,4):
     #Check if turn have reached 3 and print out "Game Over"
     if turn==3:
         print "Game Over"
+    elif win>2:
+        break
     # Print (turn + 1) here!
     turn = turn + 1
     print "%s" %(turn+1)
