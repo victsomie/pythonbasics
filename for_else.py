@@ -17,3 +17,12 @@ for f in fruits:
     print 'A', f
 else:
     print 'A fine selection of fruits!'
+
+print
+print "NOTE: The else part runs in the below code ccase there \
+is no tomato"
+"""
+======================
+FOR/ELSE that run the else statement
+NOTE: The else part run here
+"""
