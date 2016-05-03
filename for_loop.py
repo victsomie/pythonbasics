@@ -34,7 +34,7 @@ list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
 print "Zip function to compare two lists: \ prints the greater item and stops at the smaller list's last index"
 for a, b in zip(list_a, list_b):
     # Add your code here!
-    #you may also try
+    #you may also try using print max(a,b)
     if a > b:
         print a
     else:
