@@ -5,13 +5,12 @@ A prime number is a positive integer greater than 1 that has no positive divisor
 """
 
 def is_prime(x):
-    y = x
-    while x >1:
-        for n in range(x-1):
+    if x<2:
+        return False
+    elif x>=2:
+        for n in range(2, x):
             if x%n == 0:
                 return False
-            else:
-                return True
+    return True
 
-
-print is_prime(9)
+print is_prime(5)
