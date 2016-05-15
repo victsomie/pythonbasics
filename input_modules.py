@@ -1,6 +1,9 @@
 #!/usr/bin/python
 """
 Take whatever is in argv, unpack it, and assign it to all these variables on the left in order.
+
+
+To run the program you must pass three command line arguments):
 """
 
 from sys import argv
