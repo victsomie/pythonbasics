@@ -23,9 +23,27 @@ for c in counties:
 print
 
 #prints items in the key (COUNTIES ABBREVIATION)
-print ("=" *4) + "print counties abbereviation" + ("=" *4 )
+print ("=" *4) + "print counties abbreviation" + ("=" *4 )
 for c in counties:
-    print counties[c]
+    print counties[c]  #Uses key to access element of that key
 print
 
 
+#Print keys in a dict(COUNTY ABBREVIATION- Keys in a towns dictionary)
+print ("=" *4) + "print counties abbreviation [KEYS IN TOWN DICT]" + ("=" *4 )
+for key in towns:
+    print key
+print
+
+#Use items in a dictionary using their key
+print ("=" *4) + "print names of towns in each city [KEYS IN TOWN DICT]" + ("=" *4 )
+for key in towns:
+    print towns[key]
+print
+
+#map items in keys of one dict as keys of another
+#"key values" in counties is "key" in to
+print ("=" *4) + "NB: TOWNS AGAIN using key values from counties" + ("=" *4 )
+for key in counties:
+    print towns[counties[key]] + " is town in "  + key
+print
