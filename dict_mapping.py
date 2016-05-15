@@ -47,3 +47,9 @@ print ("=" *4) + "NB: TOWNS AGAIN using key values from counties" + ("=" *4 )
 for key in counties:
     print towns[counties[key]] + " is town in "  + key
 print
+
+#simplify the for loop
+print ("=" *4) + "NEW WAY TO DO FOR LOOP: for x, y in dictionary " + ("=" *4 )
+for key, item in counties.items():
+    print key + " abbreviates as " +  item
+print
