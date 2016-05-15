@@ -53,3 +53,22 @@ print ("=" *4) + "NEW WAY TO DO FOR LOOP: for x, y in dictionary " + ("=" *4 )
 for key, item in counties.items():
     print key + " abbreviates as " +  item
 print
+
+#Try to get items from a dict in a new way
+print ("=" *4) + "a different way to access key values" + ("=" *4 )
+county = counties.get("mer")
+if not county:
+    print "Sorry: doesn't exist"
+elif county == "mru":
+    print "You are in MERU"    
+else:
+    print county
+    
+x = counties.get(raw_input("Enter a search: "))
+if not x:
+    print "pUUUF not found"
+else:
+    print x
+
+    
+    
