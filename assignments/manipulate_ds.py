@@ -5,31 +5,23 @@ my_dict = {"name": "Victor",
            "institution": "moringa school",
            "cohort":"5"
           }
-#iterate through the dictionary looking
+
+#Print the dictionary before manipulatinng it
 print "******Dictionary at first******* "
 print my_dict
 print
 
+#iterate through the dictionary looking
 for i in my_dict:
     if my_dict[i] == "moringa school":
         my_dict[i] = "school"
 
 
+#Print the dictionary after manipulating it
 print "******Dictionary after manipulation******* "
 print my_dict
 
-"""
-name = raw_input("Who are you ?")
-age = int(raw_input("How old are you"))
-elizabeth = {
-    "name" : "moringa",
-    "age": 20,
-    "height": 57,
-    "weight": "181lbs"
-
-}
-"""
-
+#A function that allows to take in extra arguments
 def data(a,b,c,*x):
     print "First item is: " +a
     print "Second item is: " +b
@@ -37,11 +29,13 @@ def data(a,b,c,*x):
     print x
     print
     count = 0
+
+    #Iterate all the extra elements printing them
     for i in x:
         count+= 1
         print "Item ",
         print count,
         print " in the extra is: "+i
 
-
-data("John", "Jack",  "Germain", "The extra this!!!!", "another", )
+#Call the function with extra arguments
+data("John", "Jack",  "Germain", "The first extra!!!!", "Another extra element!!!", "Even more elements!!")
