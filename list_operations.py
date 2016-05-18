@@ -47,8 +47,15 @@ print "===Slices from index 2 BACKWARDS excluding the index 2 item===="
 print letters[:2]
 print
 
+print "===Letters sclicing content===="
+print "===Gives you the item at index -2 Counts from the right===="
+print letters[-2]
+print
+
 print "===Letters after adding content===="
 print "===The COLON gives the whole list from first to last===="
 print letters[:]
 print
+
+
 
