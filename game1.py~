@@ -12,7 +12,7 @@ def jump():
     count = 0
     for i in range(0,5):
         ran  = randint(0,5)
-        j = int(raw_input("Enter a number 0 -4 here: "))
+        j = int(raw_input("Enter a number 0 - 4 here: "))
         if ran == j:
             times.append("YAY!")
         else:
