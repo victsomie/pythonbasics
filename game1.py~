@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-#A simple game to combine different function
+#A simple game for a user to play with the computer
 
 
 from random import randint #Imports the randint
