@@ -34,3 +34,14 @@ inventory['gold']=550
 
 
 print inventory
+
+
+
+print
+
+d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
+
+for k in d:
+    print d[k]
+
+
