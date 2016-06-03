@@ -42,6 +42,6 @@ print
 d = {'a': 'apple', 'b': 'berry', 'c': 'cherry'}
 
 for k in d:
-    print d[k]
+    print d[k] *3 #This prints three times
 
 
