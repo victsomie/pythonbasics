@@ -42,3 +42,37 @@ my_age, my_height, my_weight, my_age + my_height + my_weight)
 
 
 
+############# convert lengths ###########
+my_distance = 2000
+m = my_distance * 1000
+cm = m * 100
+
+print
+print
+print
+print "My distance is %d", my_distance, " Kilometers"
+print "In meters the distance is %d", m, " Meters"
+print "In CMs the distance is %d", cm, " Centimeters"
+
+
+
+
+############# convert lengths ###########
+print "." * 10   #See what this does
+end1 = "C"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
+# watch that comma at the end. try removing it to see what happens
+
+#The comma helps the string to remain less thn 80 characters according to pep8 standards
+print end1 + end2 + end3 + end4 + end5 + end6,   #Check the comma also
+print end7 + end8 + end9 + end10 + end11 + end12
