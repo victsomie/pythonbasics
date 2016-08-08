@@ -11,10 +11,13 @@ open(filename, 'a') #opens for appending
 """
 
 from sys import argv
+from os.path import exists #imports exists function
 
 script, filename = argv
 txt = open(filename) #Declares a variable that opens the file and the parameterized file name
 
+print "Does %s exist? %s" % (filename, exists(filename))
+print "The input file is %d bytes long" % len(filename)
 print "Here's your file %r:" % filename #This gets the file name and print its out
 print txt.read() #This prints out the txt variable, which was the file given
 txt.close()
