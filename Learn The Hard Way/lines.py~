@@ -19,4 +19,4 @@ Even 4 lines if we want, or 5, or 6.
 print "#######More escape sequences########"
 while True:
     for i in ["/","- ","|","\\","|"]:
-        print "%s\r" % i
+        print "%s\r" % i,
