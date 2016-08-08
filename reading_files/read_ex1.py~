@@ -18,10 +18,9 @@ print "Type the filename again:"
 file_again = raw_input("> ") #Prompts the user for any file name
 
 txt_again = open(file_again) #Creates a variable that open that file given as a parameter
-txt_again.close()  #This closes the file that has been opened
+txt_again.close()
 
 print txt_again.read() #Prints  the filename that has been requested through parameter
-
 
 
 print "******** %r" % filename
