@@ -6,4 +6,6 @@ def num(x):
     elif x%3!=0 and x%5==0:
         print "BUZZ"
 
+
+
 num(int(raw_input("Enter number: ")))
