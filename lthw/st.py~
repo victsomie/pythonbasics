@@ -3,3 +3,7 @@ x  = [6, 2, 3, 4, 5]
 
 print sorted(x)
 
+
+x.join("")
+print x
+
