@@ -4,6 +4,6 @@ x  = [6, 2, 3, 4, 5]
 print sorted(x)
 
 
-x.join("")
+" ".join(str(x))
 print x
 
